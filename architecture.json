@@ -158,5 +158,9 @@
     {
         "level": 1,
         "task_description": "explain that the public key they need to provide is ED25519, and also note that they are connect (at the top) an EVM ECDSA wallet"
+    },
+    {
+        "level": 1,
+        "task_description": "explain that the public key they need to provide is ED25519, and also note that they are connect (at the top) an EVM ECDSA wallet"
     }
 ]
