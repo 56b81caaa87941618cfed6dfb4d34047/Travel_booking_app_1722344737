@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Implement advanced search functionality to filter through crypto projects based on yield, risk score, or likelihood of slashing\", \"checked\": true}, {\"feature\": \"Add a 'Favorites' system where users can bookmark their preferred crypto projects for quick access\", \"checked\": false}, {\"feature\": \"Include a detailed risk assessment guide or FAQ section that explains terms like 'yield', 'risk score', and 'likelihood of slashing' to help educate users\", \"checked\": true}, {\"feature\": \"Integration of user reviews and ratings for each crypto project listed, to provide community feedback on experiences and performance\", \"checked\": false}, {\"feature\": \"Real-time notifications for fluctuations in average yield or risk scores for staked projects\", \"checked\": true}, {\"feature\": \"Provide a customizable dashboard for users to monitor their investments and yields from the auto-stake feature\", \"checked\": false}], \"input_token_count\": 268, \"output_token_count\": 193, \"time_taken\": \"0:00:09.534478\"}",
+        "message_id": "guest30072024145418",
+        "timestamp": "30072024145429",
+        "component_file_name": "particle_component_1722344739",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"For the list of crypto projects, would you prefer a dynamic list that updates automatically with live data or a static list that you periodically update manually?\", \"option1\": \"Dynamic list with live updates\", \"option2\": \"Static list with manual updates\"}, {\"question 2\": \"Regarding the 'auto-stake' feature, should it automatically re-balance the user's stake across different projects to optimize yield, or would you prefer it to make a one-time auto-selection based on the current highest yield?\", \"option1\": \"Automatically re-balance to optimize yield over time\", \"option2\": \"Make a one-time selection based on current highest yield\"}], \"input_token_count\": 314, \"output_token_count\": 148, \"time_taken\": \"0:00:06.632037\"}",
         "message_id": "guest30072024145418",
