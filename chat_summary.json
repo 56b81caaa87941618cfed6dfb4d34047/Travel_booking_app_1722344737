@@ -30,5 +30,11 @@
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"When you refer to 'top call to action', do you have a specific action in mind that you want to prompt users to perform immediately upon visiting the homepage?\", \"option1\": \"Yes, I have a specific action in mind. (Please specify)\", \"option2\": \"No, I'm open to suggestions based on what generally works best for travel booking apps.\"}, {\"question 2\": \"For the bottom testimonial section, how many testimonials would you like to display, and do you prefer them to cycle automatically or remain static unless the user interacts with them?\", \"option1\": \"I'd like a set number of testimonials displayed statically. (Please specify the number)\", \"option2\": \"I'd prefer them to cycle automatically and be user-interactive.\"}], \"input_token_count\": 287, \"output_token_count\": 168, \"time_taken\": \"0:00:07.119934\"}",
         "timestamp": "30072024135812",
         "message_id": "guest30072024135804"
+    },
+    {
+        "role": "user",
+        "content": "embellish this section with a form that allows users to submit detailed cusotmer support tickets, and inlcude the 6 feature sections already there, but wrap them in beatuiful purple shaded containers",
+        "timestamp": "30072024140247",
+        "message_id": "guest30072024140246"
     }
 ]
