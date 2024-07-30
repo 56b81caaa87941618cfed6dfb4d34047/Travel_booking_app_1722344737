@@ -10,14 +10,14 @@ Vue.component("purple_feature_grid_component_1722344739", {
                 <p v-if="walletConnected" class="text-green-400 mt-2">Wallet connected!</p>
             </div>
             <div>
-                <input v-model="stakeAmount" type="number" placeholder="Amount of $SXT to stake" class="w-full p-2 rounded">
+                <input v-model="stakeAmount" type="number" placeholder="Amount of $SXT to stake" class="w-full p-2 rounded bg-deep-blue-800 text-white">
                 <button @click="stakeSXT" class="bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded mt-2">
                     Stake $SXT
                 </button>
                 <p v-if="stakeCompleted" class="text-green-400 mt-2">Staking completed!</p>
             </div>
             <div>
-                <input v-model="publicKey" type="text" placeholder="Your node's public key" class="w-full p-2 rounded">
+                <input v-model="publicKey" type="text" placeholder="Your node's public key" class="w-full p-2 rounded bg-deep-blue-800 text-white">
                 <button @click="submitPublicKey" class="bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded mt-2">
                     Submit Public Key
                 </button>
