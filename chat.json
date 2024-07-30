@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Okay, we will create a section for node operator onboarding, staking $SXT token, and retrieving the public key.",
+        "message_id": "guest30072024144345",
+        "timestamp": "30072024144346",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "replace this with a node operator onbaording section to connect wallet, stake some $SXT token, and tell us the public key of their node in the network",
         "message_id": "guest30072024144345",
