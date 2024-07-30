@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"For the purple theme you'd like for the top nav, do you have a specific shade of purple in mind, or would you like us to propose a few options based on current design trends?\", \"option1\": \"I have a specific shade in mind.\", \"option2\": \"I'd like you to propose a few options.\"}, {\"question 2\": \"When converting the login elements into buttons, are you looking for a more minimalist design with icons, or should they be more descriptive with text indicating 'Log in' and 'Sign up'?\", \"option1\": \"Use minimalist icons.\", \"option2\": \"Use descriptive text.\"}], \"input_token_count\": 266, \"output_token_count\": 143, \"time_taken\": \"0:00:13.224649\"}",
+        "message_id": "guest30072024140822",
+        "timestamp": "30072024140836",
+        "component_file_name": "purple_header_component_1722344739",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Understood, working on replacing top nav with purple theme and buttonizing login.",
         "message_id": "guest30072024140822",
