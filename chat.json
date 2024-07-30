@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"When you refer to 'top call to action', do you have a specific action in mind that you want to prompt users to perform immediately upon visiting the homepage?\", \"option1\": \"Yes, I have a specific action in mind. (Please specify)\", \"option2\": \"No, I'm open to suggestions based on what generally works best for travel booking apps.\"}, {\"question 2\": \"For the bottom testimonial section, how many testimonials would you like to display, and do you prefer them to cycle automatically or remain static unless the user interacts with them?\", \"option1\": \"I'd like a set number of testimonials displayed statically. (Please specify the number)\", \"option2\": \"I'd prefer them to cycle automatically and be user-interactive.\"}], \"input_token_count\": 287, \"output_token_count\": 168, \"time_taken\": \"0:00:07.119934\"}",
+        "message_id": "guest30072024135804",
+        "timestamp": "30072024135812",
+        "component_file_name": "purple_background_cta_component_1722344739",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_ui_checklist",
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Integrate a dynamic search bar in the hero section for quick access to travel bookings\", \"checked\": true}, {\"feature\": \"Add a 'Top Destinations' carousel below the call to action for inspiration\", \"checked\": false}, {\"feature\": \"Incorporate a bottom testimonial section with a slider to feature customer reviews\", \"checked\": true}, {\"feature\": \"Utilize a vibrant purple color scheme throughout the UI for visual consistency\", \"checked\": true}, {\"feature\": \"Implement card designs with rounded/beveled edges for a modern, friendly look\", \"checked\": true}, {\"feature\": \"Add an animated, floating 'Book Now' button on all travel offer pages for increased conversion\", \"checked\": false}], \"input_token_count\": 241, \"output_token_count\": 164, \"time_taken\": \"0:00:07.021450\"}",
         "message_id": "guest30072024135804",
