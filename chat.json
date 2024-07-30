@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where exactly do you want the big SVG of an airplane to be positioned in the app?\", \"option1\": \"Replace the current hero section with it\", \"option2\": \"Overlay it as a background for the entire home page\"}, {\"question 2\": \"Would you like the airplane SVG to have any interactive elements or animations?\", \"option1\": \"Yes, add an interactive element such as clickable parts leading to different sections\", \"option2\": \"No, keep it static without any interactive features\"}], \"input_token_count\": 678, \"output_token_count\": 116, \"time_taken\": \"0:00:12.954566\"}",
+        "message_id": "guest30072024141126",
+        "timestamp": "30072024141140",
+        "component_file_name": "purple_feature_grid_component_1722344739",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Sure thing, I'll replace it with a SVG of an airplane.",
         "message_id": "guest30072024141126",
