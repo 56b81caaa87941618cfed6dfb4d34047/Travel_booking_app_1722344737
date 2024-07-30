@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Integration of a secure wallet connect feature for linking users' cryptocurrency wallets\", \"checked\": true}, {\"feature\": \"Staking mechanism for $SXT token with live tracking of staking rewards\", \"checked\": true}, {\"feature\": \"Input field for users to submit the public key of their node\", \"checked\": true}, {\"feature\": \"Real-time network status dashboard showing node connectivity and health\", \"checked\": false}, {\"feature\": \"Tutorial section or tooltips guiding new users through the node operator onboarding process\", \"checked\": false}, {\"feature\": \"Feedback mechanism for users to report issues or request assistance during the onboarding process\", \"checked\": false}], \"input_token_count\": 237, \"output_token_count\": 152, \"time_taken\": \"0:00:05.105348\"}",
+        "message_id": "guest30072024144345",
+        "timestamp": "30072024144351",
+        "component_file_name": "purple_feature_grid_component_1722344739",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Okay, we will create a section for node operator onboarding, staking $SXT token, and retrieving the public key.",
         "message_id": "guest30072024144345",
