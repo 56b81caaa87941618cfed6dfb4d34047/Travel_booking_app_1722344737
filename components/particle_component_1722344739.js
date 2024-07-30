@@ -3,22 +3,22 @@
 
 Vue.component("particle_component_1722344739", {
     template: `
-    <div class="bg-red-900 text-white p-8">
-        <h1 class="text-4xl font-bold mb-6">Popular Crypto Staking Projects</h1>
-        <div class="grid grid-cols-1 gap-6">
-            <div v-for="project in projects" :key="project.name" class="bg-red-800 rounded-lg shadow-lg p-6">
-                <h2 class="text-2xl font-semibold mb-4">{{ project.name }}</h2>
-                <p class="mb-2">Average Yield: {{ project.avgYield }}%</p>
-                <p class="mb-2">Risk Score: {{ project.riskScore }}/10</p>
-                <p class="mb-4">Likelihood of Slashing: {{ project.slashingLikelihood }}%</p>
-                <button @click="autoStake(project)" class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded">
-                    Auto-Stake
+    <div class="bg-blue-900 text-white p-8 rounded-lg shadow-lg">
+        <h1 class="text-4xl font-bold mb-6 text-violet-300">Popular Crypto Staking Projects</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div v-for="project in projects" :key="project.name" class="bg-blue-800 rounded-lg shadow-lg p-6 hover:bg-blue-700 transition duration-300">
+                <h2 class="text-2xl font-semibold mb-4 text-violet-200">{{ project.name }}</h2>
+                <p class="mb-2 text-blue-200">Average Yield: {{ project.avgYield }}%</p>
+                <p class="mb-2 text-blue-200">Risk Score: {{ project.riskScore }}/10</p>
+                <p class="mb-4 text-blue-200">Likelihood of Slashing: {{ project.slashingLikelihood }}%</p>
+                <button @click="autoStake(project)" class="bg-violet-500 hover:bg-violet-600 text-white font-bold py-2 px-4 rounded-lg transition duration-300">
+                    Auto-Stake <i class='bx bx-right-arrow-alt ml-2'></i>
                 </button>
             </div>
         </div>
-        <div v-if="showExplanation" class="mt-8 bg-red-700 p-6 rounded-lg">
-            <h3 class="text-xl font-semibold mb-4">Auto-Stake Explanation</h3>
-            <p>Our Auto-Stake feature automatically chooses the best yield farming strategy on your behalf. It analyzes the current market conditions, risk factors, and potential returns to maximize your earnings while minimizing risk.</p>
+        <div v-if="showExplanation" class="mt-8 bg-blue-800 p-6 rounded-lg shadow-lg">
+            <h3 class="text-xl font-semibold mb-4 text-violet-300">Auto-Stake Explanation</h3>
+            <p class="text-blue-200">Our Auto-Stake feature automatically chooses the best yield farming strategy on your behalf. It analyzes the current market conditions, risk factors, and potential returns to maximize your earnings while minimizing risk.</p>
         </div>
     </div>
     `,
