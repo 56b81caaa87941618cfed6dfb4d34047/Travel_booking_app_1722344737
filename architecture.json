@@ -150,5 +150,9 @@
     {
         "level": 1,
         "task_description": "build a big list of popular crypto projects to stake eth against, listing their avg yield, risk score, likelihood of slashing, and big \"auto-stake\" button with an explanation that this will automatically choose best yield (it will yield farm on behalf of the user). make it a bright red theme, like netflix. make sure you don't forget the tilda at the end of the vue.js template for HTML"
+    },
+    {
+        "level": 1,
+        "task_description": "build a big list of popular crypto projects to stake eth against, listing their avg yield, risk score, likelihood of slashing, and big \"auto-stake\" button with an explanation that this will automatically choose best yield (it will yield farm on behalf of the user). make it a bright red theme, like netflix. make sure you don't forget the tilda at the end of the vue.js template for HTML"
     }
 ]
