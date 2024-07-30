@@ -1,52 +1,61 @@
-/* Summary: The section has a blurred radial gradient background and a call-to-action (CTA) content block.
-It is centered on the page and includes a gradient-based title, a subtitle, a paragraph of text, and a button with a gradient background.
-*/
-
 Vue.component("purple_background_cta_component_1722344739", {
     template: `
-    <section id="cta-section-container">
-        <div id="section-container" class="max-w-6xl mx-auto px-4 sm:px-6 bg-white">
-            <div id="content-container" class="relative px-8 py-12 md:py-20 rounded-[3rem] overflow-hidden">
-                <!-- Radial gradient -->
-                <div id="radial-gradient" class="absolute flex items-center justify-center top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/3 aspect-square" aria-hidden="true">
-                    <div id="radial-gradient-outer" class="absolute inset-0 translate-z-0 rounded-full blur-[120px] opacity-70" :class="radialGradientPrimaryStyle"></div>
-                    <div id="radial-gradient-inner" class="absolute w-1/4 h-1/4 translate-z-0 rounded-full blur-[40px]" :class="radialGradientSecondaryStyle">
+    <section class="bg-purple-100 py-20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <!-- Hero section -->
+            <div class="bg-purple-600 rounded-3xl shadow-xl overflow-hidden mb-20">
+                <div class="grid md:grid-cols-2 gap-10 items-center p-10">
+                    <div class="text-white">
+                        <h1 class="text-4xl font-bold mb-4">Explore the World</h1>
+                        <p class="text-purple-200 mb-6">Discover new adventures and create unforgettable memories with our travel platform.</p>
+                        <a href="#" class="bg-white text-purple-600 font-semibold py-3 px-6 rounded-full hover:bg-purple-100 transition duration-300">Get Started</a>
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="https://placehold.co/400x300" alt="Travel illustration" class="rounded-2xl shadow-lg">
                     </div>
                 </div>
-                <!-- Blurred shape -->
-                <div id="blurred-shape" class="absolute bottom-0 translate-y-1/2 left-0 blur-2xl opacity-50 pointer-events-none -z-10" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="434" height="427">
-                        <defs><linearGradient id="bs5-a" x1="19.609%" x2="50%" y1="14.544%" y2="100%"><stop offset="0%" :stop-color="stopColorPrimaryStyle" /><stop offset="100%" :stop-color="stopColorSecondaryStyle" stop-opacity="0" /></linearGradient></defs>
-                        <path fill="url(#bs5-a)" fill-rule="evenodd" d="m0 0 461 369-284 58z" transform="matrix(1 0 0 -1 0 427)" />
-                    </svg>
-                </div>
-                <!-- Content -->
-                <div id="content" class="max-w-3xl mx-auto text-center">
-                    <div id="content-subtitle" class="flex"><div id="content-subtitle-text" class="flex-1 font-medium bg-clip-text pb-3" :class="[transparentTextStyle, contentSubtitleStyle]">Discover, Plan, and Go!</div></div>
-                    <div class="flex" id="content-title-container"><h2 id="content-title" class="flex-1 h2 bg-clip-text pb-4" :class="[transparentTextStyle, contentCtaTitleStyle]"> Explore the World, Hassle-Free</h2></div>
-                    <div class="flex" id="content-body-container"><p id="content-body" class="flex-1 text-lg mb-8" :class="[contentBodyStyle]">Book your next adventure with our seamless travel booking app. From flights to hotels, we've got you covered for unforgettable journeys.</p></div>
-                    <a id="content-cta-button" href="#0" class="btn transition duration-150 ease-in-out group" :class="[contentCtaButtonPrimaryStyle, contentCtaButtonGradientStyle, contentCtaButtonGradientStyle, contentCtaButtonHoverStyle]">Get Started <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1" :class="contentCtaArrowStyle">-&gt;</span></a>
+            </div>
+
+            <!-- Testimonial section -->
+            <div class="bg-white rounded-3xl shadow-xl p-10">
+                <h2 class="text-3xl font-bold text-purple-800 text-center mb-10">What Our Travelers Say</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-purple-50 p-6 rounded-2xl">
+                        <p class="text-gray-600 mb-4">"An amazing experience! The app made planning my trip so easy."</p>
+                        <div class="flex items-center">
+                            <img src="https://placehold.co/50x50" alt="User" class="rounded-full mr-3">
+                            <div>
+                                <p class="font-semibold text-purple-800">Jane Doe</p>
+                                <p class="text-sm text-gray-500">Adventure Seeker</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-purple-50 p-6 rounded-2xl">
+                        <p class="text-gray-600 mb-4">"I found hidden gems I never knew existed. Highly recommend!"</p>
+                        <div class="flex items-center">
+                            <img src="https://placehold.co/50x50" alt="User" class="rounded-full mr-3">
+                            <div>
+                                <p class="font-semibold text-purple-800">John Smith</p>
+                                <p class="text-sm text-gray-500">Frequent Traveler</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-purple-50 p-6 rounded-2xl">
+                        <p class="text-gray-600 mb-4">"The best travel companion app I've ever used. Simplified my journey."</p>
+                        <div class="flex items-center">
+                            <img src="https://placehold.co/50x50" alt="User" class="rounded-full mr-3">
+                            <div>
+                                <p class="font-semibold text-purple-800">Emily Brown</p>
+                                <p class="text-sm text-gray-500">Solo Traveler</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>`,
-        data() {
-            return {
-                expanded: false, 
-                tab: null,
-                radialGradientPrimaryStyle: "bg-purple-500",
-                radialGradientSecondaryStyle: "bg-purple-400",
-                stopColorPrimaryStyle: "#A855F7",
-                stopColorSecondaryStyle: "#6366F1",
-                transparentTextStyle: "text-transparent",
-                contentSubtitleStyle: "bg-gradient-to-r from-purple-500 to-purple-200",
-                contentCtaTitleStyle: "bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60",
-                contentBodyStyle: "text-slate-400",
-                contentCtaButtonPrimaryStyle:"text-slate-900",
-                contentCtaButtonGradientStyle: "bg-gradient-to-r from-white/80 via-white to-white/80",
-                contentCtaButtonHoverStyle: "hover:bg-white",
-                contentCtaArrowStyle: "text-purple-500"
-            };
-        },
-    });
-                    
+    </section>
+    `,
+    data() {
+        return {};
+    },
+});
