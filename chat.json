@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "explain that the public key they need to provide is ED25519, and also note that they are connect (at the top) an EVM ECDSA wallet",
+        "message_id": "guest30072024150110",
+        "timestamp": "30072024150110",
+        "component_file_name": "purple_feature_grid_component_1722344739",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_ui_checklist",
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Interactive yield calculator allowing users to input their ETH amount to see potential returns from each project\", \"checked\": true}, {\"feature\": \"User reviews and ratings section for each crypto project, enabling community feedback and additional insights\", \"checked\": false}, {\"feature\": \"Real-time notifications for changes in yield rates, risk scores, or slashing events for tracked projects\", \"checked\": true}, {\"feature\": \"Customizable dashboard for users to monitor their staked assets across different projects in one place\", \"checked\": false}, {\"feature\": \"Educational content section explaining staking, yield farming, and risk management in simple terms\", \"checked\": true}, {\"feature\": \"Dark mode option for user interface, providing an alternative to the bright red theme for night-time browsing\", \"checked\": false}], \"input_token_count\": 288, \"output_token_count\": 177, \"time_taken\": \"0:00:07.562651\"}",
         "message_id": "guest30072024145745",
