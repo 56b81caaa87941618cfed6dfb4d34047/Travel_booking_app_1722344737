@@ -6,5 +6,11 @@
         "timestamp": "1722344739",
         "component_file_name": "",
         "div_id": ""
+    },
+    {
+        "role": "user",
+        "content": "replace this whole section with a new hero that has a top call to action and then a bottom testimontial section. use a bright purple shaded theme with rounded/beveled edges and ",
+        "timestamp": "30072024135804",
+        "message_id": "guest30072024135804"
     }
 ]
