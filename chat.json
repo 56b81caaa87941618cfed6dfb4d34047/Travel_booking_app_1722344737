@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Got it, currently working on a detailed footer with a purple theme.",
+        "message_id": "guest30072024140429",
+        "timestamp": "30072024140430",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "replace this with a more detailed footer with purple theme",
         "message_id": "guest30072024140429",
