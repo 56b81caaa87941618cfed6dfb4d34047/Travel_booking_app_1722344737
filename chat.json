@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Okay, working on replacing the top hero section with a more detailed title/CTA.",
+        "message_id": "guest30072024142728",
+        "timestamp": "30072024142729",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "replace the top part of hero with a more detailed title / CTA",
         "message_id": "guest30072024142728",
