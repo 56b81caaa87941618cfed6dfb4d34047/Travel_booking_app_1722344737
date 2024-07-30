@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a search bar for instant travel bookings with auto-complete suggestions\", \"checked\": true}, {\"feature\": \"Incorporate a 'Popular Destinations' carousel below the CTA for quick navigation\", \"checked\": false}, {\"feature\": \"Include a countdown timer for limited-time offers next to the CTA\", \"checked\": true}, {\"feature\": \"Implement a dynamic weather and local time display for selected destinations\", \"checked\": false}, {\"feature\": \"Place a 'Recent Reviews' section below the CTA to build trust and provide insights\", \"checked\": true}, {\"feature\": \"Embed a social share button to allow users to share their travel bookings or itineraries\", \"checked\": false}], \"input_token_count\": 218, \"output_token_count\": 148, \"time_taken\": \"0:00:06.439592\"}",
+        "message_id": "guest30072024142728",
+        "timestamp": "30072024142735",
+        "component_file_name": "purple_background_cta_component_1722344739",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the new title and CTA to be more focused on promoting special offers or on showcasing popular destinations?\", \"option1\": \"Focus on promoting special offers\", \"option2\": \"Showcase popular destinations\"}, {\"question 2\": \"Do you have a preference for the size and style of the font for the new title and CTA? For example, bold and large for visibility or sleek and modern for elegance.\", \"option1\": \"Bold and large for visibility\", \"option2\": \"Sleek and modern for elegance\"}], \"input_token_count\": 264, \"output_token_count\": 124, \"time_taken\": \"0:00:04.428492\"}",
         "message_id": "guest30072024142728",
