@@ -3,15 +3,24 @@ Vue.component("purple_background_cta_component_1722344739", {
     <section class="bg-gray-900 py-20">
         <div class="max-w-6xl mx-auto px-4 sm:px-6">
             <!-- Hero section -->
-            <div class="bg-gradient-to-br from-purple-900 to-blue-900 rounded-3xl shadow-2xl overflow-hidden mb-20">
-                <div class="grid md:grid-cols-2 gap-10 items-center p-10">
+            <div class="bg-gradient-to-br from-purple-900 to-blue-900 rounded-3xl shadow-2xl overflow-hidden mb-20 p-10">
+                <div class="grid md:grid-cols-2 gap-10 items-center">
                     <div class="text-white">
-                        <h1 class="text-5xl font-bold mb-4 text-purple-300">Explore the Universe</h1>
-                        <p class="text-purple-200 mb-6">Embark on extraordinary journeys and create cosmic memories with our interstellar travel platform.</p>
-                        <a href="#" class="bg-purple-500 text-white font-semibold py-3 px-6 rounded-full hover:bg-purple-400 transition duration-300 shadow-lg">Launch Your Adventure</a>
+                        <h1 class="text-6xl font-bold mb-4 text-purple-300">Cosmic Voyages Await</h1>
+                        <p class="text-purple-200 mb-6 text-xl">Discover uncharted galaxies, witness celestial wonders, and forge unforgettable memories across the cosmos.</p>
+                        <div class="flex space-x-4">
+                            <a href="#" class="bg-purple-500 text-white font-semibold py-3 px-6 rounded-full hover:bg-purple-400 transition duration-300 shadow-lg flex items-center">
+                                <i class='bx bx-rocket mr-2'></i>
+                                Begin Your Odyssey
+                            </a>
+                            <a href="#" class="bg-transparent border-2 border-purple-300 text-purple-300 font-semibold py-3 px-6 rounded-full hover:bg-purple-800 hover:text-white transition duration-300 shadow-lg flex items-center">
+                                <i class='bx bx-info-circle mr-2'></i>
+                                Learn More
+                            </a>
+                        </div>
                     </div>
                     <div class="flex justify-center">
-                        <img src="https://placehold.co/400x300" alt="Space travel illustration" class="rounded-2xl shadow-lg border-4 border-purple-500">
+                        <img src="https://placehold.co/500x400" alt="Interstellar journey illustration" class="rounded-2xl shadow-lg border-4 border-purple-500">
                     </div>
                 </div>
             </div>
