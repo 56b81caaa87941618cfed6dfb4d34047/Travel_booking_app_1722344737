@@ -1,6 +1,15 @@
 [
     {
         "role": "user",
+        "content": "build a big list of popular crypto projects to stake eth against, listing their avg yield, risk score, likelihood of slashing, and big \"auto-stake\" button with an explanation that this will automatically choose best yield (it will yield farm on behalf of the user). make it a bright red theme, like netflix",
+        "message_id": "guest30072024145418",
+        "timestamp": "30072024145419",
+        "component_file_name": "particle_component_1722344739",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
         "content": "make this more detailed, add shades and labels above each text input field, and explainer paragraphs to exaplain why they need to input this info",
         "message_id": "guest30072024144457",
         "timestamp": "30072024144457",
