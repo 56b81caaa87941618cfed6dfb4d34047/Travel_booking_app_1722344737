@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "replace the top part of hero with a more detailed title / CTA",
+        "message_id": "guest30072024142728",
+        "timestamp": "30072024142728",
+        "component_file_name": "purple_background_cta_component_1722344739",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "You got it! I'll replace all of it with a large airplane SVG.",
         "message_id": "guest30072024141228",
