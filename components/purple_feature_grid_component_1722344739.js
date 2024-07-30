@@ -1,12 +1,70 @@
 Vue.component("purple_feature_grid_component_1722344739", {
     template: `
-    <div class="bg-gradient-to-br from-deep-blue-900 to-purple-900 p-8 flex justify-center items-center rounded-lg shadow-lg">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-full h-auto text-purple-400 filter drop-shadow-lg">
-            <path d="M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10s10-4.48,10-10C22,6.48,17.52,2,12,2z M12,20c-4.41,0-8-3.59-8-8s3.59-8,8-8 s8,3.59,8,8S16.41,20,12,20z M17,10c-0.55,0-1-0.45-1-1s0.45-1,1-1s1,0.45,1,1S17.55,10,17,10z M7,10c-0.55,0-1-0.45-1-1s0.45-1,1-1 s1,0.45,1,1S7.55,10,7,10z M12,17c-2.21,0-4-1.79-4-4h8C16,15.21,14.21,17,12,17z"/>
-        </svg>
+    <div class="bg-gradient-to-br from-deep-blue-900 to-purple-900 p-8 rounded-lg shadow-lg">
+        <h2 class="text-2xl font-bold text-white mb-6">Node Operator Onboarding</h2>
+        <div class="space-y-6">
+            <div>
+                <button @click="connectWallet" class="bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded">
+                    Connect Wallet
+                </button>
+                <p v-if="walletConnected" class="text-green-400 mt-2">Wallet connected!</p>
+            </div>
+            <div>
+                <input v-model="stakeAmount" type="number" placeholder="Amount of $SXT to stake" class="w-full p-2 rounded">
+                <button @click="stakeSXT" class="bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded mt-2">
+                    Stake $SXT
+                </button>
+                <p v-if="stakeCompleted" class="text-green-400 mt-2">Staking completed!</p>
+            </div>
+            <div>
+                <input v-model="publicKey" type="text" placeholder="Your node's public key" class="w-full p-2 rounded">
+                <button @click="submitPublicKey" class="bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded mt-2">
+                    Submit Public Key
+                </button>
+                <p v-if="publicKeySubmitted" class="text-green-400 mt-2">Public key submitted!</p>
+            </div>
+        </div>
     </div>
     `,
     data() {
-        return {};
+        return {
+            walletConnected: false,
+            stakeAmount: null,
+            stakeCompleted: false,
+            publicKey: '',
+            publicKeySubmitted: false
+        };
     },
+    methods: {
+        // Start of connectWallet method
+        connectWallet() {
+            // Simulating wallet connection
+            setTimeout(() => {
+                this.walletConnected = true;
+            }, 1000);
+        },
+        // End of connectWallet method
+
+        // Start of stakeSXT method
+        stakeSXT() {
+            if (this.stakeAmount > 0) {
+                // Simulating staking process
+                setTimeout(() => {
+                    this.stakeCompleted = true;
+                }, 1000);
+            }
+        },
+        // End of stakeSXT method
+
+        // Start of submitPublicKey method
+        submitPublicKey() {
+            if (this.publicKey) {
+                // Simulating public key submission
+                setTimeout(() => {
+                    this.publicKeySubmitted = true;
+                }, 1000);
+            }
+        }
+        // End of submitPublicKey method
+    }
 });
