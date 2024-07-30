@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you prefer the hero section to have a static image background or a video background?\", \"option1\": \"Static image background\", \"option2\": \"Video background\"}, {\"question 2\": \"For the testimonials, do you want them to appear directly on the hero section or would you prefer a carousel that users can navigate through?\", \"option1\": \"Directly on the hero section\", \"option2\": \"Carousel navigation\"}], \"input_token_count\": 266, \"output_token_count\": 101, \"time_taken\": \"0:00:03.243881\"}",
+        "message_id": "guest30072024143603",
+        "timestamp": "30072024143607",
+        "component_file_name": "purple_header_component_1722344739",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Sure, creating a hero with a strong call to action and testimonials to showcase our excellent plane booking service.",
         "message_id": "guest30072024143603",
