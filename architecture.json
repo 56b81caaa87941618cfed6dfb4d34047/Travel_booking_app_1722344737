@@ -54,5 +54,9 @@
     {
         "level": 1,
         "task_description": "replace the top part of hero with a more detailed title / CTA"
+    },
+    {
+        "level": 1,
+        "task_description": "replace the top part of hero with a more detailed title / CTA"
     }
 ]
