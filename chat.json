@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Sure thing, I'll replace it with a SVG of an airplane.",
+        "message_id": "guest30072024141126",
+        "timestamp": "30072024141126",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "replace all of this with a big SVG of an airplane",
         "message_id": "guest30072024141126",
