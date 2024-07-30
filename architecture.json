@@ -78,5 +78,9 @@
     {
         "level": 1,
         "task_description": "create a nice top nav with lots of placeholder content and login buttons"
+    },
+    {
+        "level": 1,
+        "task_description": "create a nice top nav with lots of placeholder content and login buttons"
     }
 ]
