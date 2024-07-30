@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you want the SVG of a cat to be primarily decorative or should it also serve an interactive function?\", \"option1\": \"Decorative, to enhance visual appeal\", \"option2\": \"Interactive, should serve a purpose like navigation or information display\"}, {\"question 2\": \"Should the cat SVG align with a specific theme related to travel or is a general cat illustration sufficient?\", \"option1\": \"Yes, it should have a travel-related theme\", \"option2\": \"No, a general cat illustration is fine\"}], \"input_token_count\": 668, \"output_token_count\": 120, \"time_taken\": \"0:00:06.036630\"}",
+        "message_id": "guest30072024143909",
+        "timestamp": "30072024143916",
+        "component_file_name": "purple_feature_grid_component_1722344739",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Understood, working on creating a detailed SVG of a cat.",
         "message_id": "guest30072024143909",
