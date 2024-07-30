@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Noted. Working on adding a content-rich call-to-action for earning rewards through node operations on the Space and Time network.",
+        "message_id": "guest30072024221022",
+        "timestamp": "30072024221023",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "add a call to action/hero with lots of content about the Space and time network and how node operatros can earn rewards",
         "message_id": "guest30072024221022",
