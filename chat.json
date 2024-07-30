@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"For the glass effect backgrounds, do you prefer a subtle blur effect or a more pronounced frosty look?\", \"option1\": \"Subtle blur effect\", \"option2\": \"Pronounced frosty look\"}, {\"question 2\": \"Regarding the light pink and purple shades, would you like them to be applied predominantly throughout the app interface or used sparingly as accent colors?\", \"option1\": \"Predominantly throughout the app\", \"option2\": \"Sparingly as accent colors\"}], \"input_token_count\": 272, \"output_token_count\": 115, \"time_taken\": \"0:00:03.325090\"}",
+        "message_id": "guest30072024220840",
+        "timestamp": "30072024220844",
+        "component_file_name": "purple_feature_grid_component_1722344739",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Sure, adding Tailwind glass backgrounds, light pink theme, purple shades, beveled edges, and shadows for a stylish look.",
         "message_id": "guest30072024220840",
