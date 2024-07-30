@@ -90,5 +90,9 @@
     {
         "level": 1,
         "task_description": "create a hero with a large call to action and testimonials about the plane booking service"
+    },
+    {
+        "level": 1,
+        "task_description": "replace with an svg of a cat"
     }
 ]
