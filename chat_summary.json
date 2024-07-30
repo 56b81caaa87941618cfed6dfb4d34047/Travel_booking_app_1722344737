@@ -54,5 +54,11 @@
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"For the customer support form, should it be a multi-step form or a single page form for ease of submission?\", \"option1\": \"Multi-step form\", \"option2\": \"Single page form\"}, {\"question 2\": \"Regarding the existing 6 feature sections that will be wrapped in purple shaded containers, do you prefer a subtle, light purple theme or a more vibrant, deep purple theme?\", \"option1\": \"Subtle, light purple theme\", \"option2\": \"Vibrant, deep purple theme\"}], \"input_token_count\": 405, \"output_token_count\": 120, \"time_taken\": \"0:00:05.902371\"}",
         "timestamp": "30072024140255",
         "message_id": "guest30072024140246"
+    },
+    {
+        "role": "user",
+        "content": "replace this with a more detailed footer with purple theme",
+        "timestamp": "30072024140429",
+        "message_id": "guest30072024140429"
     }
 ]
