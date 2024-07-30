@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"For the risk score representation, do you prefer a numerical system (e.g., 1-10) or a categorial system (e.g., Low, Medium, High) to denote the risk associated with each crypto project?\", \"option1\": \"Numerical System (1-10)\", \"option2\": \"Categorical System (Low, Medium, High)\"}, {\"question 2\": \"Regarding the 'auto-stake' feature, should its explanation be a part of the button (e.g., tooltip on hover) or a separate informational section near the button?\", \"option1\": \"Tooltip on hover\", \"option2\": \"Separate informational section\"}], \"input_token_count\": 334, \"output_token_count\": 148, \"time_taken\": \"0:00:06.329628\"}",
+        "message_id": "guest30072024145745",
+        "timestamp": "30072024145752",
+        "component_file_name": "dark_footer_component_1722344739",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Thanks for the detailed information! We're currently working on building a bright red themed list including popular crypto projects to stake eth against. We'll make sure to include the average yield, risk score, likelihood of slashing, and an \"auto-stake\" button as you've requested. And don't worry, we won't forget the tilda at the end of the vue.js template for HTML.",
         "message_id": "guest30072024145745",
