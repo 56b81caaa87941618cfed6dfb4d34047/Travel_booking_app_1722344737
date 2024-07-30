@@ -118,5 +118,9 @@
     {
         "level": 1,
         "task_description": "replace this with a node operator onbaording section to connect wallet, stake some $SXT token, and tell us the public key of their node in the network"
+    },
+    {
+        "level": 1,
+        "task_description": "replace this with a node operator onbaording section to connect wallet, stake some $SXT token, and tell us the public key of their node in the network"
     }
 ]
