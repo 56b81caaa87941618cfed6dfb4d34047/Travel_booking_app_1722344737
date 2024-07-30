@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"For the list of crypto projects, would you prefer a dynamic list that updates automatically with live data or a static list that you periodically update manually?\", \"option1\": \"Dynamic list with live updates\", \"option2\": \"Static list with manual updates\"}, {\"question 2\": \"Regarding the 'auto-stake' feature, should it automatically re-balance the user's stake across different projects to optimize yield, or would you prefer it to make a one-time auto-selection based on the current highest yield?\", \"option1\": \"Automatically re-balance to optimize yield over time\", \"option2\": \"Make a one-time selection based on current highest yield\"}], \"input_token_count\": 314, \"output_token_count\": 148, \"time_taken\": \"0:00:06.632037\"}",
+        "message_id": "guest30072024145418",
+        "timestamp": "30072024145426",
+        "component_file_name": "particle_component_1722344739",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Sure, designing a bright red-themed page with a big auto-stake button that will allow you to stake ETH against popular crypto projects with their average yield, risk score, and likelihood of slashing in an automated manner is being worked on.",
         "message_id": "guest30072024145418",
