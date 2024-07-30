@@ -48,5 +48,11 @@
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add detailed customer support ticket submission form\", \"checked\": true}, {\"feature\": \"Wrap existing feature sections in purple shaded containers\", \"checked\": true}, {\"feature\": \"Incorporate live chat support for immediate assistance\", \"checked\": false}, {\"feature\": \"Enable push notifications for ticket updates and responses\", \"checked\": false}, {\"feature\": \"Implement a FAQ section for quick help on common issues\", \"checked\": true}, {\"feature\": \"Add user profile section for tracking submitted tickets and responses\", \"checked\": false}], \"input_token_count\": 359, \"output_token_count\": 107, \"time_taken\": \"0:00:05.329271\"}",
         "timestamp": "30072024140254",
         "message_id": "guest30072024140246"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"For the customer support form, should it be a multi-step form or a single page form for ease of submission?\", \"option1\": \"Multi-step form\", \"option2\": \"Single page form\"}, {\"question 2\": \"Regarding the existing 6 feature sections that will be wrapped in purple shaded containers, do you prefer a subtle, light purple theme or a more vibrant, deep purple theme?\", \"option1\": \"Subtle, light purple theme\", \"option2\": \"Vibrant, deep purple theme\"}], \"input_token_count\": 405, \"output_token_count\": 120, \"time_taken\": \"0:00:05.902371\"}",
+        "timestamp": "30072024140255",
+        "message_id": "guest30072024140246"
     }
 ]
