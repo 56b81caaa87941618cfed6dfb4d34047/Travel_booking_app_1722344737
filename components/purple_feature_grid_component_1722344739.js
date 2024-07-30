@@ -6,86 +6,19 @@ The feature sections are organised in a grid of two rows, each with three column
 Vue.component("purple_feature_grid_component_1722344739", {
     template: `
     <div class="bg-deep-blue-900 p-8">
-        <!-- Customer Support Ticket Form -->
-        <div class="bg-gradient-to-br from-deep-blue-800 to-deep-blue-700 rounded-xl shadow-lg p-8 mb-12">
-            <h3 class="text-3xl font-bold text-purple-300 mb-6">Submit a Customer Support Ticket</h3>
-            <form>
-                <div class="mb-6">
-                    <label for="name" class="block text-sm font-medium text-purple-200 mb-2">Name</label>
-                    <input type="text" id="name" name="name" class="w-full bg-deep-blue-600 text-white rounded-lg border-purple-500 shadow-sm focus:border-purple-400 focus:ring focus:ring-purple-300 focus:ring-opacity-50 transition duration-300">
-                </div>
-                <div class="mb-6">
-                    <label for="email" class="block text-sm font-medium text-purple-200 mb-2">Email</label>
-                    <input type="email" id="email" name="email" class="w-full bg-deep-blue-600 text-white rounded-lg border-purple-500 shadow-sm focus:border-purple-400 focus:ring focus:ring-purple-300 focus:ring-opacity-50 transition duration-300">
-                </div>
-                <div class="mb-6">
-                    <label for="subject" class="block text-sm font-medium text-purple-200 mb-2">Subject</label>
-                    <input type="text" id="subject" name="subject" class="w-full bg-deep-blue-600 text-white rounded-lg border-purple-500 shadow-sm focus:border-purple-400 focus:ring focus:ring-purple-300 focus:ring-opacity-50 transition duration-300">
-                </div>
-                <div class="mb-6">
-                    <label for="message" class="block text-sm font-medium text-purple-200 mb-2">Message</label>
-                    <textarea id="message" name="message" rows="4" class="w-full bg-deep-blue-600 text-white rounded-lg border-purple-500 shadow-sm focus:border-purple-400 focus:ring focus:ring-purple-300 focus:ring-opacity-50 transition duration-300"></textarea>
-                </div>
-                <button type="submit" class="w-full bg-purple-600 text-white py-3 px-6 rounded-lg hover:bg-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-opacity-50 transition duration-300 transform hover:scale-105">Submit Ticket</button>
-            </form>
-        </div>
-
-        <!-- Features Grid -->
-        <div id="features-grid" class="grid md:grid-cols-3 gap-8">
-            <!-- Feature 1 -->
-            <div id="feature-1" class="bg-gradient-to-br from-deep-blue-800 to-deep-blue-700 rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300">
-                <div id="feature-1-header" class="flex items-center space-x-3 mb-4">
-                    <svg id="feature-1-icon" class="shrink-0 w-8 h-8 text-purple-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"/></svg>
-                    <div class="flex" id="feature-1-title-container"><h4 id="feature-1-title" class="flex-1 font-semibold text-xl text-purple-300">Effortless Trip Planning</h4></div>
-                </div>
-                <div class="flex" id="feature-1-description-container"><p id="feature-1-description" class="flex-1 text-sm text-purple-100">Our intuitive platform allows you to easily search, compare, and book flights, hotels, and rental cars all in one place. Say goodbye to the hassle of juggling multiple sites.</p></div>
-            </div>
-            <!-- Feature 2 -->
-            <div id="feature-2" class="bg-gradient-to-br from-deep-blue-800 to-deep-blue-700 rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300">
-                <div id="feature-2-header" class="flex items-center space-x-3 mb-4">
-                    <svg id="feature-2-icon" class="shrink-0 w-8 h-8 text-purple-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M13.803 5.333c0-1.84 1.5-3.333 3.346-3.333 1.844 0 3.344 1.492 3.344 3.333 0 1.842-1.5 3.333-3.344 3.333-1.845 0-3.346-1.491-3.346-3.333zM3.333 7.333c0-.922.75-1.666 1.667-1.666h5.667c.916 0 1.666.744 1.666 1.666 0 .923-.75 1.667-1.666 1.667H5c-.917 0-1.667-.744-1.667-1.667zm0 5c0-.922.75-1.666 1.667-1.666h5.667c.916 0 1.666.744 1.666 1.666 0 .923-.75 1.667-1.666 1.667H5c-.917 0-1.667-.744-1.667-1.667zm0 5c0-.922.75-1.666 1.667-1.666h5.667c.916 0 1.666.744 1.666 1.666 0 .923-.75 1.667-1.666 1.667H5c-.917 0-1.667-.744-1.667-1.667zm10.803-5c0-1.84 1.5-3.333 3.346-3.333 1.844 0 3.344 1.492 3.344 3.333 0 1.842-1.5 3.333-3.344 3.333-1.845 0-3.346-1.491-3.346-3.333zm0 5c0-1.84 1.5-3.333 3.346-3.333 1.844 0 3.344 1.492 3.344 3.333 0 1.842-1.5 3.333-3.344 3.333-1.845 0-3.346-1.491-3.346-3.333z"/></svg>
-                    <div class="flex" id="feature-2-title-container"><h4 id="feature-2-title" class="flex-1 font-semibold text-xl text-purple-300">Personalized Recommendations</h4></div>
-                </div>
-                <div class="flex" id="feature-2-description-container"><p id="feature-2-description" class="flex-1 text-sm text-purple-100">Based on your preferences and travel history, we curate personalized recommendations for destinations, accommodations, and activities tailored just for you.</p></div>
-            </div>
-            <!-- Feature 3 -->
-            <div id="feature-3" class="bg-gradient-to-br from-deep-blue-800 to-deep-blue-700 rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300">
-                <div id="feature-3-header" class="flex items-center space-x-3 mb-4">
-                    <svg id="feature-3-icon" class="shrink-0 w-8 h-8 text-purple-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"/><path d="M13 7h-2v5.414l3.293 3.293 1.414-1.414L13 11.586z"/></svg>
-                    <div class="flex" id="feature-3-title-container"><h4 id="feature-3-title" class="flex-1 font-semibold text-xl text-purple-300">Real-Time Updates</h4></div>
-                </div>
-                <div class="flex" id="feature-3-description-container"><p id="feature-3-description" class="flex-1 text-sm text-purple-100">Stay informed with real-time updates on flight delays, gate changes, and other important travel information, ensuring a seamless journey from start to finish.</p></div>
-            </div>
-            <!-- Feature 4 -->
-            <div id="feature-4" class="bg-gradient-to-br from-deep-blue-800 to-deep-blue-700 rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300">
-                <div id="feature-4-header" class="flex items-center space-x-3 mb-4">
-                    <svg id="feature-4-icon" class="shrink-0 w-8 h-8 text-purple-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58.55 0 1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.55-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z"/></svg>
-                    <div class="flex" id="feature-4-title-container"><h4 id="feature-4-title" class="flex-1 font-semibold text-xl text-purple-300">Exclusive Deals and Discounts</h4></div>
-                </div>
-                <div class="flex" id="feature-4-description-container"><p id="feature-4-description" class="flex-1 text-sm text-purple-100">Unlock exclusive deals, discounts, and package offers available only through our app, helping you stretch your travel budget further.</p></div>
-            </div>
-            <!-- Feature 5 -->
-            <div id="feature-5" class="bg-gradient-to-br from-deep-blue-800 to-deep-blue-700 rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300">
-                <div id="feature-5-header" class="flex items-center space-x-3 mb-4">
-                    <svg id="feature-5-icon" class="shrink-0 w-8 h-8 text-purple-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17 1H7c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zm0 18H7V5h10v14zm-1-6h-3v3h-2v-3H8v-2h3V8h2v3h3v2z"/></svg>
-                    <div class="flex" id="feature-5-title-container"><h4 id="feature-5-title" class="flex-1 font-semibold text-xl text-purple-300">Mobile-Friendly Booking</h4></div>
-                </div>
-                <div class="flex" id="feature-5-description-container"><p id="feature-5-description" class="flex-1 text-sm text-purple-100">Book your travel on-the-go with our sleek and user-friendly mobile app, putting the power of travel planning right at your fingertips.</p></div>
-            </div>
-            <!-- Feature 6 -->
-            <div id="feature-6" class="bg-gradient-to-br from-deep-blue-800 to-deep-blue-700 rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300">
-                <div id="feature-6-header" class="flex items-center space-x-3 mb-4">
-                    <svg id="feature-6-icon" class="shrink-0 w-8 h-8 text-purple-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg>
-                    <div class="flex" id="feature-6-title-container"><h4 id="feature-6-title" class="flex-1 font-semibold text-xl text-purple-300">24/7 Customer Support</h4></div>
-                </div>
-                <div class="flex" id="feature-6-description-container"><p id="feature-6-description" class="flex-1 text-sm text-purple-100">Our dedicated support team is available around the clock to assist you with any questions or concerns, ensuring peace of mind throughout your journey.</p></div>
-            return {
-                expanded: false, 
-                tab: null,
-                textFillStylePrimary: "fill-slate-300",
-                textPrimaryStyle: "text-slate-400",
-                textSecondaryStyle: "text-slate-50",
-            };
-        },
-    });
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-full h-auto text-purple-400">
+            <path d="M21 16.42v3.536a1 1 0 0 1-.93.998c-.437.03-.794.046-1.07.046-8.837 0-16-7.163-16-16 0-.276.015-.633.046-1.07A1 1 0 0 1 4.044 3H7.58a.5.5 0 0 1 .498.45c.023.23.044.413.064.552A13.901 13.901 0 0 0 9.35 8.003c.095.2.033.439-.147.567l-2.158 1.542a13.047 13.047 0 0 0 6.844 6.844l1.54-2.154a.462.462 0 0 1 .573-.149 13.901 13.901 0 0 0 4 1.205c.139.02.322.042.55.064a.5.5 0 0 1 .449.498z"/>
+            <path d="M13.41 12.89c-.69.9-2.19 2.28-3.91 2.28-1.72 0-3.22-1.38-3.91-2.28M17.79 9.79c-.38-.38-.89-.59-1.42-.59-.53 0-1.04.21-1.42.59-.37.37-.59.88-.59 1.41 0 .53.22 1.04.59 1.42.38.38.89.59 1.42.59.53 0 1.04-.21 1.42-.59.37-.37.59-.88.59-1.42 0-.53-.22-1.04-.59-1.41zM14.5 6.5c0-1.1-.9-2-2-2s-2 .9-2 2 .9 2 2 2 2-.9 2-2z"/>
+        </svg>
+    </div>
+    `,
+    data() {
+        return {
+            expanded: false, 
+            tab: null,
+            textFillStylePrimary: "fill-slate-300",
+            textPrimaryStyle: "text-slate-400",
+            textSecondaryStyle: "text-slate-50",
+        };
+    },
                     
