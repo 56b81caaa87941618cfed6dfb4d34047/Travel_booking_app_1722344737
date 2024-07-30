@@ -5,7 +5,7 @@ Vue.component("purple_feature_grid_component_1722344739", {
         <div class="space-y-8">
             <div>
                 <h3 class="text-xl font-semibold text-purple-300 mb-2">Wallet Connection</h3>
-                <p class="text-purple-200 mb-4">Connect your wallet to begin the onboarding process. This step is crucial for verifying your identity and securing your node operations. By connecting your wallet, you'll be able to interact with our platform securely and efficiently.</p>
+                <p class="text-purple-200 mb-4">Connect your EVM ECDSA wallet to begin the onboarding process. This step is crucial for verifying your identity and securing your node operations. By connecting your wallet, you'll be able to interact with our platform securely and efficiently.</p>
                 <button @click="connectWallet" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300">
                     Connect Wallet
                 </button>
@@ -23,7 +23,7 @@ Vue.component("purple_feature_grid_component_1722344739", {
             </div>
             <div>
                 <h3 class="text-xl font-semibold text-purple-300 mb-2">Node Public Key</h3>
-                <p class="text-purple-200 mb-4">Your node's public key is essential for identifying your node on the network. It's used for secure communication and transaction validation. This unique identifier ensures that your node can participate in network consensus and receive rewards for its contributions.</p>
+                <p class="text-purple-200 mb-4">Your node's public key is essential for identifying your node on the network. It's used for secure communication and transaction validation. This unique identifier ensures that your node can participate in network consensus and receive rewards for its contributions. Please provide an ED25519 public key for your node.</p>
                 <label for="publicKey" class="block text-purple-200 text-lg font-semibold mb-2">Enter Node Public Key:</label>
                 <input id="publicKey" v-model="publicKey" type="text" placeholder="Your node's public key" class="w-full p-3 rounded-lg bg-deep-blue-800 text-white border border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-600">
                 <button @click="submitPublicKey" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-lg shadow-md mt-3 transition duration-300">
