@@ -1,21 +1,21 @@
 Vue.component("dark_footer_component_1722344739", {
     template: `
-<div class="bg-red-900 text-white py-16">
+<div class="bg-blue-900 text-white py-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-4xl font-bold mb-8">Popular Crypto Staking Projects</h2>
+        <h2 class="text-4xl font-bold mb-8 text-purple-300">Popular Crypto Staking Projects</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div v-for="project in projects" :key="project.name" class="bg-red-800 rounded-lg shadow-lg p-6">
-                <h3 class="text-2xl font-semibold mb-4">{{ project.name }}</h3>
+            <div v-for="project in projects" :key="project.name" class="bg-gradient-to-br from-blue-800 to-blue-900 rounded-lg shadow-lg p-6 hover:shadow-purple-500/50 transition duration-300">
+                <h3 class="text-2xl font-semibold mb-4 text-purple-300">{{ project.name }}</h3>
                 <p class="mb-2">Average Yield: {{ project.avgYield }}%</p>
                 <p class="mb-2">Risk Score: {{ project.riskScore }}/10</p>
                 <p class="mb-4">Slashing Likelihood: {{ project.slashingLikelihood }}%</p>
-                <button @click="autoStake(project)" class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+                <button @click="autoStake(project)" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg shadow-md hover:shadow-purple-500/50 transition duration-300">
                     Auto-Stake
                 </button>
             </div>
         </div>
-        <div class="mt-12 bg-red-800 rounded-lg shadow-lg p-6">
-            <h3 class="text-2xl font-semibold mb-4">Auto-Stake Explanation</h3>
+        <div class="mt-12 bg-gradient-to-br from-blue-800 to-blue-900 rounded-lg shadow-lg p-6 hover:shadow-purple-500/50 transition duration-300">
+            <h3 class="text-2xl font-semibold mb-4 text-purple-300">Auto-Stake Explanation</h3>
             <p class="text-lg">
                 The "Auto-Stake" button will automatically choose the best yield farming option on your behalf, 
                 optimizing your returns while considering risk factors and slashing likelihood.
