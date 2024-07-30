@@ -170,5 +170,9 @@
     {
         "level": 1,
         "task_description": "make this more stylish with tailwind glass backgrounds and light pink theme and purple shades and beveled edges and shadows"
+    },
+    {
+        "level": 1,
+        "task_description": "add a call to action/hero with lots of content about the Space and time network and how node operatros can earn rewards"
     }
 ]
