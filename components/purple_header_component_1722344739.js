@@ -62,6 +62,50 @@ Vue.component("purple_header_component_1722344739", {
         </div>
     </header>
 
+    <div class="bg-purple-900 py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
+                    Book Your Dream Flight Today
+                </h1>
+                <p class="mt-3 max-w-md mx-auto text-base text-purple-200 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+                    Experience hassle-free booking and embark on your next adventure with our top-rated flight service.
+                </p>
+                <div class="mt-10 sm:flex sm:justify-center">
+                    <div class="rounded-md shadow">
+                        <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-purple-700 bg-white hover:bg-purple-50 md:py-4 md:text-lg md:px-10">
+                            Book Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-extrabold text-gray-900 text-center mb-12">
+                What Our Customers Say
+            </h2>
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+                <div class="bg-purple-100 rounded-lg shadow-lg p-6">
+                    <p class="text-gray-700 mb-4">"Booking my flight was incredibly easy. The service is top-notch!"</p>
+                    <p class="font-bold text-purple-700">- Sarah J.</p>
+                </div>
+                <div class="bg-purple-100 rounded-lg shadow-lg p-6">
+                    <p class="text-gray-700 mb-4">"I found great deals and saved a lot on my last trip. Highly recommended!"</p>
+                    <p class="font-bold text-purple-700">- Mike T.</p>
+                </div>
+                <div class="bg-purple-100 rounded-lg shadow-lg p-6">
+                    <p class="text-gray-700 mb-4">"The customer support is excellent. They helped me every step of the way."</p>
+                    <p class="font-bold text-purple-700">- Emily R.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-gray-900 py-12 px-4 sm:px-6 lg:px-8">
+
     <div class="bg-gray-900 py-12 px-4 sm:px-6 lg:px-8">
         <div class="max-w-3xl mx-auto">
             <h2 class="text-3xl font-extrabold text-purple-400 mb-6">Customer Support</h2>

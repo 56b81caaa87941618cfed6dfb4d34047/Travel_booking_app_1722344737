@@ -82,5 +82,9 @@
     {
         "level": 1,
         "task_description": "create a nice top nav with lots of placeholder content and login buttons"
+    },
+    {
+        "level": 1,
+        "task_description": "create a hero with a large call to action and testimonials about the plane booking service"
     }
 ]
