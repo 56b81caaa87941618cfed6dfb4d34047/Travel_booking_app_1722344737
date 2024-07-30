@@ -1,6 +1,15 @@
 [
     {
         "role": "user",
+        "content": "create a hero with a large call to action and testimonials about the plane booking service",
+        "message_id": "guest30072024143603",
+        "timestamp": "30072024143603",
+        "component_file_name": "purple_header_component_1722344739",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
         "content": "create a nice top nav with lots of placeholder content and login buttons",
         "message_id": "guest30072024143440",
         "timestamp": "30072024143440",
