@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "replace this with a node operator onbaording section to connect wallet, stake some $SXT token, and tell us the public key of their node in the network",
+        "message_id": "guest30072024144345",
+        "timestamp": "30072024144346",
+        "component_file_name": "purple_feature_grid_component_1722344739",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Okay, I understand. Working on finding an actual kitten SVG.",
         "message_id": "guest30072024143939",
