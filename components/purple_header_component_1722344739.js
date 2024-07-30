@@ -62,28 +62,28 @@ Vue.component("purple_header_component_1722344739", {
         </div>
     </header>
 
-    <div class="bg-purple-800 py-12 px-4 sm:px-6 lg:px-8">
+    <div class="bg-gray-900 py-12 px-4 sm:px-6 lg:px-8">
         <div class="max-w-3xl mx-auto">
-            <h2 class="text-3xl font-extrabold text-white mb-6">Customer Support</h2>
+            <h2 class="text-3xl font-extrabold text-purple-400 mb-6">Customer Support</h2>
             <form class="space-y-6">
                 <div>
-                    <label for="name" class="block text-sm font-medium text-purple-100">Name</label>
-                    <input type="text" name="name" id="name" class="mt-1 block w-full border-purple-300 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500 sm:text-sm">
+                    <label for="name" class="block text-sm font-medium text-purple-300">Name</label>
+                    <input type="text" name="name" id="name" class="mt-1 block w-full bg-gray-800 border-purple-500 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500 sm:text-sm text-white">
                 </div>
                 <div>
-                    <label for="email" class="block text-sm font-medium text-purple-100">Email</label>
-                    <input type="email" name="email" id="email" class="mt-1 block w-full border-purple-300 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500 sm:text-sm">
+                    <label for="email" class="block text-sm font-medium text-purple-300">Email</label>
+                    <input type="email" name="email" id="email" class="mt-1 block w-full bg-gray-800 border-purple-500 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500 sm:text-sm text-white">
                 </div>
                 <div>
-                    <label for="subject" class="block text-sm font-medium text-purple-100">Subject</label>
-                    <input type="text" name="subject" id="subject" class="mt-1 block w-full border-purple-300 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500 sm:text-sm">
+                    <label for="subject" class="block text-sm font-medium text-purple-300">Subject</label>
+                    <input type="text" name="subject" id="subject" class="mt-1 block w-full bg-gray-800 border-purple-500 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500 sm:text-sm text-white">
                 </div>
                 <div>
-                    <label for="message" class="block text-sm font-medium text-purple-100">Message</label>
-                    <textarea id="message" name="message" rows="4" class="mt-1 block w-full border-purple-300 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500 sm:text-sm"></textarea>
+                    <label for="message" class="block text-sm font-medium text-purple-300">Message</label>
+                    <textarea id="message" name="message" rows="4" class="mt-1 block w-full bg-gray-800 border-purple-500 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500 sm:text-sm text-white"></textarea>
                 </div>
                 <div>
-                    <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-purple-900 bg-purple-300 hover:bg-purple-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500">
+                    <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500">
                         Submit Request
                     </button>
                 </div>
