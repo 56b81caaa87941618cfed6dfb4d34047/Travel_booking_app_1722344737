@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the new title and CTA to be more focused on promoting special offers or on showcasing popular destinations?\", \"option1\": \"Focus on promoting special offers\", \"option2\": \"Showcase popular destinations\"}, {\"question 2\": \"Do you have a preference for the size and style of the font for the new title and CTA? For example, bold and large for visibility or sleek and modern for elegance.\", \"option1\": \"Bold and large for visibility\", \"option2\": \"Sleek and modern for elegance\"}], \"input_token_count\": 264, \"output_token_count\": 124, \"time_taken\": \"0:00:04.428492\"}",
+        "message_id": "guest30072024142728",
+        "timestamp": "30072024142733",
+        "component_file_name": "purple_background_cta_component_1722344739",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Okay, working on replacing the top hero section with a more detailed title/CTA.",
         "message_id": "guest30072024142728",
