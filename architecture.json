@@ -94,5 +94,9 @@
     {
         "level": 1,
         "task_description": "replace with an svg of a cat"
+    },
+    {
+        "level": 1,
+        "task_description": "replace with an svg of a cat"
     }
 ]
