@@ -62,18 +62,18 @@ Vue.component("purple_header_component_1722344739", {
         </div>
     </header>
 
-    <div class="bg-purple-900 py-20">
+    <div class="bg-gradient-to-r from-gray-900 to-purple-900 py-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
-                <h1 class="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
+                <h1 class="text-5xl font-extrabold text-white sm:text-6xl md:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
                     Book Your Dream Flight Today
                 </h1>
                 <p class="mt-3 max-w-md mx-auto text-base text-purple-200 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                     Experience hassle-free booking and embark on your next adventure with our top-rated flight service.
                 </p>
                 <div class="mt-10 sm:flex sm:justify-center">
-                    <div class="rounded-md shadow">
-                        <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-purple-700 bg-white hover:bg-purple-50 md:py-4 md:text-lg md:px-10">
+                    <div class="rounded-md shadow-lg">
+                        <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 md:py-4 md:text-lg md:px-10 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105">
                             Book Now
                         </a>
                     </div>
@@ -82,23 +82,23 @@ Vue.component("purple_header_component_1722344739", {
         </div>
     </div>
 
-    <div class="bg-white py-16">
+    <div class="bg-gray-900 py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-extrabold text-gray-900 text-center mb-12">
+            <h2 class="text-3xl font-extrabold text-purple-400 text-center mb-12">
                 What Our Customers Say
             </h2>
             <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
-                <div class="bg-purple-100 rounded-lg shadow-lg p-6">
-                    <p class="text-gray-700 mb-4">"Booking my flight was incredibly easy. The service is top-notch!"</p>
-                    <p class="font-bold text-purple-700">- Sarah J.</p>
+                <div class="bg-gradient-to-br from-gray-800 to-purple-900 rounded-lg shadow-lg p-6 transform transition duration-500 hover:scale-105">
+                    <p class="text-purple-200 mb-4">"Booking my flight was incredibly easy. The service is top-notch!"</p>
+                    <p class="font-bold text-purple-400">- Sarah J.</p>
                 </div>
-                <div class="bg-purple-100 rounded-lg shadow-lg p-6">
-                    <p class="text-gray-700 mb-4">"I found great deals and saved a lot on my last trip. Highly recommended!"</p>
-                    <p class="font-bold text-purple-700">- Mike T.</p>
+                <div class="bg-gradient-to-br from-gray-800 to-purple-900 rounded-lg shadow-lg p-6 transform transition duration-500 hover:scale-105">
+                    <p class="text-purple-200 mb-4">"I found great deals and saved a lot on my last trip. Highly recommended!"</p>
+                    <p class="font-bold text-purple-400">- Mike T.</p>
                 </div>
-                <div class="bg-purple-100 rounded-lg shadow-lg p-6">
-                    <p class="text-gray-700 mb-4">"The customer support is excellent. They helped me every step of the way."</p>
-                    <p class="font-bold text-purple-700">- Emily R.</p>
+                <div class="bg-gradient-to-br from-gray-800 to-purple-900 rounded-lg shadow-lg p-6 transform transition duration-500 hover:scale-105">
+                    <p class="text-purple-200 mb-4">"The customer support is excellent. They helped me every step of the way."</p>
+                    <p class="font-bold text-purple-400">- Emily R.</p>
                 </div>
             </div>
         </div>
