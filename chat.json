@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Understood, working on creating a detailed SVG of a cat.",
+        "message_id": "guest30072024143909",
+        "timestamp": "30072024143909",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "no, i meant a detailed svg of a cat",
         "message_id": "guest30072024143909",
