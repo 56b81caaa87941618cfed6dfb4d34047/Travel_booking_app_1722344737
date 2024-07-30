@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "make this more detailed, add shades and labels above each text input field, and explainer paragraphs to exaplain why they need to input this info",
+        "message_id": "guest30072024144457",
+        "timestamp": "30072024144457",
+        "component_file_name": "purple_feature_grid_component_1722344739",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"How do you envision the wallet connection process for node operators in your app? Do you prefer a seamless in-app integration with popular wallets or redirecting users to an external wallet application for authentication?\", \"option1\": \"Seamless in-app wallet connectivity\", \"option2\": \"Redirect to an external application for wallet connection\"}, {\"question 2\": \"For the $SXT token staking feature, what staking options would you like to offer? Should there be a fixed minimum staking amount or would you prefer to offer flexible staking with user-defined amounts?\", \"option1\": \"Fixed minimum staking amount\", \"option2\": \"Flexible user-defined staking amounts\"}], \"input_token_count\": 283, \"output_token_count\": 151, \"time_taken\": \"0:00:05.170762\"}",
         "message_id": "guest30072024144345",
