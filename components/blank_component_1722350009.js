@@ -16,31 +16,28 @@ Vue.component("blank_component_1722350009", {
         <div>
             <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
             <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-            <section id="blank-section" class="bg-navy-900 dark:bg-black flex-1">
-                <div id="blank-container" class="max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
-                    <nav class="bg-gradient-to-r from-purple-900 to-indigo-900 shadow-lg rounded-lg p-6 mb-8">
-                        <div class="flex justify-between items-center">
-                            <div class="flex items-center space-x-4">
-                                <i class='bx bx-menu text-2xl text-white'></i>
-                                <span class="text-xl font-bold text-white">Logo</span>
-                            </div>
-                            <div class="flex items-center space-x-6">
-                                <a href="#" class="text-white hover:text-purple-300">Home</a>
-                                <a href="#" class="text-white hover:text-purple-300">Products</a>
-                                <a href="#" class="text-white hover:text-purple-300">About</a>
-                                <a href="#" class="text-white hover:text-purple-300">Contact</a>
-                                <a href="#" class="text-white hover:text-purple-300">Services</a>
-                                <a href="#" class="text-white hover:text-purple-300">Blog</a>
-                            </div>
-                            <div class="flex items-center space-x-4">
-                                <button class="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700 transition duration-300">Login</button>
-                                <button class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition duration-300">Sign Up</button>
-                            </div>
-                        </div>
-                    </nav>
+            <nav class="bg-gradient-to-r from-purple-900 to-indigo-900 shadow-lg p-4">
+                <div class="max-w-7xl mx-auto flex justify-between items-center">
+                    <div class="flex items-center space-x-4">
+                        <i class='bx bx-menu text-2xl text-white'></i>
+                        <span class="text-xl font-bold text-white">Logo</span>
+                    </div>
+                    <div class="hidden md:flex items-center space-x-6">
+                        <a href="#" class="text-white hover:text-purple-300">Home</a>
+                        <a href="#" class="text-white hover:text-purple-300">Products</a>
+                        <a href="#" class="text-white hover:text-purple-300">About</a>
+                        <a href="#" class="text-white hover:text-purple-300">Contact</a>
+                        <a href="#" class="text-white hover:text-purple-300">Services</a>
+                        <a href="#" class="text-white hover:text-purple-300">Blog</a>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <button class="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700 transition duration-300">Login</button>
+                        <button class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition duration-300">Sign Up</button>
+                    </div>
                 </div>
-            </section>  
+            </nav>
         </div>          
+    `,
     `,
     data() {
         return {
