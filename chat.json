@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Got it, will replace the current content with a top nav.",
+        "message_id": "guest31072024023157",
+        "timestamp": "31072024023158",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"How do you prefer the content to be structured in the hero section for optimal user engagement?\", \"option1\": \"A single, compelling paragraph with a call-to-action button\", \"option2\": \"Multiple sections or tabs detailing different aspects with individual call-to-actions\"}, {\"question 2\": \"Would you like to include any multimedia elements (e.g., images, videos) to enhance the message about the Space and Time Network and node operators' rewards?\", \"option1\": \"Yes, include visuals like images or videos to make it more engaging\", \"option2\": \"No, keep it text-based for simplicity and faster loading times\"}], \"input_token_count\": 276, \"output_token_count\": 142, \"time_taken\": \"0:00:04.925447\"}",
         "message_id": "guest30072024221022",
