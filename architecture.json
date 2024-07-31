@@ -178,5 +178,9 @@
     {
         "level": 1,
         "task_description": "add a call to action/hero with lots of content about the Space and time network and how node operatros can earn rewards"
+    },
+    {
+        "level": 1,
+        "task_description": "replace all this content with a top nav"
     }
 ]
