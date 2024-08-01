@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "REPLACE ALL THIS CONTENT WITH A SMILING DOG SVG",
+        "message_id": "guest01082024142649",
+        "timestamp": "01082024142649",
+        "component_file_name": "dark_footer_component_1722344739",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Got it, will replace the current content with a top nav.",
         "message_id": "guest31072024023157",
